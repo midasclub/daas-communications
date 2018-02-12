@@ -1,0 +1,30 @@
+{
+	"name": "@daas/communications",
+	"version": "0.0.1-dev.5",
+	"description": "The communications module of DaaS, which allows the DaaS worker to communicate with the DaaS cores",
+	"main": "build/src/index.js",
+	"scripts": {
+		"build": "tsc",
+		"reformat": "prettier --write \"**/*.ts\"",
+		"prepack": "npm run build"
+	},
+	"author": "Pablo Rodríguez <pabloviolin8@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"@daas/db-adapter": "0.0.1-dev.4",
+		"rxjs": "^5.5.6"
+	},
+	"devDependencies": {
+		"@types/node": "^8.5.2",
+		"prettier": "^1.9.2",
+		"typescript": "^2.6.2"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/midasclub/daas-communications.git"
+	},
+	"bugs": {
+		"url": "https://github.com/midasclub/daas-communications/issues"
+	},
+	"homepage": "https://github.com/midasclub/daas-communications#readme"
+}
