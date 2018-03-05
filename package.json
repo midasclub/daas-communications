@@ -1,6 +1,6 @@
 {
 	"name": "@daas/communications",
-	"version": "0.0.1-dev.5",
+	"version": "0.0.1-dev.6",
 	"description": "The communications module of DaaS, which allows the DaaS worker to communicate with the DaaS cores",
 	"main": "build/src/index.js",
 	"scripts": {
